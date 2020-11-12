@@ -1,5 +1,6 @@
 
 module.exports = {
+    base: 'https://bb-code.github.io/vueblog/',
     //theme: '@vuepress/blog',
     head: [
         // add jquert and fancybox
