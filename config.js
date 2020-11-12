@@ -1,6 +1,7 @@
 
-module.exports = {
-    base: 'https://bb-code.github.io/vueblog/',
+module.exports = { //仓库地址
+    base: '/blog/',  // 配合部署项目
+    repo: 'https://bb-code.github.io/vueblog/',
     //theme: '@vuepress/blog',
     head: [
         // add jquert and fancybox
