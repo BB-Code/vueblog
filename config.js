@@ -43,6 +43,24 @@ module.exports = { //仓库地址
                 children: [
                     { title: 'npm 常用命令', path: '/blog/npm常用命令' }
                 ]
+            },
+            {
+                title: 'IOS',   // 必要的
+                path: '',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: true, // 可选的, 默认值是 true,
+                sidebarDepth: 1,    // 可选的, 默认值是 1
+                children: [
+                    { title: 'IOS上传构建包问题处理', path: '/blog/IOS上传构建包问题处理' }
+                ]
+            },
+            {
+                title: 'DotNET',   // 必要的
+                path: '',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: true, // 可选的, 默认值是 true,
+                sidebarDepth: 1,    // 可选的, 默认值是 1
+                children: [
+                    { title: 'DotNETCore命令', path: '/blog/DotNETCore命令' }
+                ]
             }
         ]
     }
