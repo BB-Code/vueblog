@@ -1,7 +1,7 @@
 
 module.exports = { //仓库地址
-    base: '/vueblog/',  // 配合部署项目
-    repo: 'https://bb-code.github.io/vueblog/',
+    base: '/vueblog/',  // 配合部署项目vueblog
+    //repo: 'https://bb-code.github.io/vueblog/',
     //theme: '@vuepress/blog',
     head: [
         // add jquert and fancybox
@@ -33,6 +33,15 @@ module.exports = { //仓库地址
                 sidebarDepth: 1,    // 可选的, 默认值是 1
                 children: [
                     { title: 'flutter环境搭建(window)', path: '/blog/flutter环境搭建' }
+                ]
+            },
+            {
+                title: 'node',   // 必要的
+                path: '',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: true, // 可选的, 默认值是 true,
+                sidebarDepth: 1,    // 可选的, 默认值是 1
+                children: [
+                    { title: 'npm 常用命令', path: '/blog/npm常用命令' }
                 ]
             }
         ]
