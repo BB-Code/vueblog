@@ -32,7 +32,8 @@ module.exports = { //仓库地址
                 collapsable: true, // 可选的, 默认值是 true,
                 sidebarDepth: 1,    // 可选的, 默认值是 1
                 children: [
-                    { title: 'flutter环境搭建(window)', path: '/blog/flutter环境搭建' }
+                    { title: 'flutter环境搭建(window)', path: '/blog/flutter环境搭建' },
+                    { title: '培训平台APP项目总结', path: '/blog/培训平台APP项目总结' }
                 ]
             },
             {
